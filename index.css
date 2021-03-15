@@ -15,7 +15,7 @@
     background-color: black;
     color:white;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
 }
 /* form{
     display: flex;
@@ -30,7 +30,8 @@ form{
     margin-top:10%
 }
 label{
-    color: #0D65F2
+    color: #0D65F2;
+    font-size:27px;
 }
 input {
     
@@ -40,8 +41,8 @@ input {
   }
   #error{
       color:red;
+      text-align:center;
   }
-  input[button]{
-    background-color: ;
-
-}
+ #lgn{
+     background-color:#1588ca;
+ }

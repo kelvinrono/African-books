@@ -15,4 +15,18 @@ function validate(){
         document.getElementById('error').innerHTML='Please fill all the fields'
         return false;
     }
+    else if(name===''){
+        //alert("name cannot be empty")
+        document.getElementById('error').innerHTML='Fill in your name'
+        return false;
+    }
+
+    else if(name.lenght<5){
+        //alert("name cannot be empty")
+        document.getElementById('error').innerHTML='Name cannot be less than 5 characters'
+        return false;
+    }
+    else{
+        return true
+    }
 }

@@ -5,7 +5,7 @@
     padding:0px;
 }
 .sec1{
-    width: 80%;
+    width: 60%;
     background-color: white;
     margin:auto;
     margin-top:40px;
@@ -32,3 +32,12 @@ form{
 label{
     color: #0D65F2
 }
+input {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  #error{
+      color:red;
+  }

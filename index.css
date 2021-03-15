@@ -11,3 +11,24 @@
     margin-top:40px;
     height: 400px;
 }
+.lpage{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+/* form{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    justify-content: center;
+    align-items: center;
+} */
+
+form{
+    text-align: center;
+    margin-top:10%
+}
+label{
+    color: #0D65F2
+}

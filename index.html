@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"href="index.css">
+    <script src="file.js"></script>
     <title>African Books website</title>
 </head>
 <body class="login">
     
     <div class ="sec1">
         <p class ="lpage">Login Page</p>
-        <form action="" class="form">
-         <label for ="name"> Username:</label> <input type="text" id="name" placeholder="Username"><br><br>
+        <form class="form" id="form" name="myForm" onsubmit="return( validate());" action="register.html"> 
+         <label for ="name"> Username:</label> <input type="text" id="name" placeholder="Username" ><br><br>
 
           <label for="password">Password:</label> <input type="password" id ="password" placeholder="password"><br><br>
-        <button class = "sign"> Sign in</button>
+   <input type="submit" value = "Login" id ="lgn" >
         </form>
+        <p id="error"> </p>
+        <p id ="err1"></p>
     </div>
 
 </body>

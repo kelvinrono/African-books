@@ -1,4 +1,32 @@
+body {
+    background-color: #FF8C00;
+    
+}
 h1  {
     font-weight:bold;
-    font-size:70px;
+    font-size:50px;
+}
+h3 {
+    font-size:30px;
+}
+nav{
+    font-size:40px;
+    margin-right: 0;
+    text-decoration: none;
+    display:flex;
+    width:100%;
+}
+nav a{
+    background-color:rgb(129, 62,14);
+    height:70px;
+    width:100%;
+    color:white;
+    padding:10px;
+    text-decoration:none;
+    text-align:center;
+    
+}
+nav a:hover {
+    color:white;
+    background-color: #FF8C00;
 }

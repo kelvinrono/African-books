@@ -1,5 +1,15 @@
-
+body{
+  color: black;
+  background-color: chocolate;
+}
 h1{
+  justify-content: center;
+  background: rgb(221, 220, 220);
+  margin-right: 800px;
+  margin-left: 280px;
+  padding: 10px;
+}
+#text{
   text-align: center;
 }
 #header{

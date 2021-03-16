@@ -38,3 +38,6 @@ nav a:hover {
     color:white;
     background-color: #FF8C00;
 }
+.contact, h4 {
+    font-size: 20px;
+}

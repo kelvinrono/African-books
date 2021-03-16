@@ -53,3 +53,20 @@ h2{
 #history img{
   float: right;
 }
+#romance{
+  margin: 30px;
+}
+#romance > div{
+  width: 25%;
+  float: left;
+  min-width: 120px;
+}
+#romance img{
+  /* float: right; */
+}
+#romance > h2{
+  background: rgb(221, 220, 220);
+  margin-right: 940px;
+  margin-left: 30px;
+  padding: 10px;
+}

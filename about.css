@@ -1,21 +1,50 @@
 body {
+    text-align: center;
+    background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#overlay {
     background-color: #FF8C00;
-    
+    opacity:0.8;
+    position:absolute;
+    height:130%;
+    width:100%;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    content:'';
 }
 h1  {
     font-weight:bold;
     font-size:50px;
     margin-top:10px;
     text-decoration: underline;
+    position:relative;
 }
 h3 {
     font-size:35px;
-    margin-top:5px;
+    margin-top:0px;
+    margin-bottom: 5px;
     color:navy;
+    position:relative;
 }
 p {
     margin-top:0px;
+    margin-bottom: 40px;
     font-size: 20px;
+    position:relative;
+}
+li{
+    font-size: 25px;
+}
+.contact{
+    margin-top:50px;
+}
+.navigation {
+    position:relative;
 }
 nav{
     font-size:40px;
@@ -23,6 +52,7 @@ nav{
     text-decoration: none;
     display:flex;
     width:100%;
+    position:relative;
 }
 nav a{
     background-color:rgb(129, 62,14);
@@ -40,4 +70,14 @@ nav a:hover {
 }
 .contact, h4 {
     font-size: 20px;
+}    
+table {
+    font-size: large;
+    border-spacing: 30px;
+    background-color:#915000;
+    text-align:left;
+    color:yellow;
+}
+th {
+    text-decoration: underline;
 }

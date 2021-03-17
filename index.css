@@ -1,8 +1,12 @@
 .login{
-    background-color: #1DC2D8;
+    background-color: #FF8C00;
     width: 100%;
     margin: 0px;
     padding:0px;
+}
+.login >p{
+    text-align:center;
+    font-size: 24px;
 }
 .sec1{
     width: 60%;
@@ -44,5 +48,5 @@ input {
       text-align:center;
   }
  #lgn{
-     background-color:#1588ca;
+     background-color:#FF8C00;
  }

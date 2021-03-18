@@ -1,11 +1,12 @@
 body {
-    text-align: center;
+/*     text-align: center;
     background-image: url("background2.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #FF8C00;
 
 }
-#overlay {
+/* #overlay {
     background-color: #FF8C00;
     opacity:0.8;
     position:absolute;
@@ -16,7 +17,7 @@ body {
     right:0;
     left:0;
     content:'';
-}
+} */
 h1  {
     font-weight:bold;
     font-size:50px;

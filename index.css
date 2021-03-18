@@ -1,0 +1,54 @@
+.login{
+    background-color: #FF8C00;
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+}
+.login >p{
+    text-align:center;
+    font-size: 24px;
+    color:white;
+}
+.sec1{
+    width: 60%;
+    background-color: white;
+    margin:auto;
+    margin-top:40px;
+    height: 400px;
+}
+.lpage{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 35px;
+}
+/* form{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    justify-content: center;
+    align-items: center;
+} */
+
+form{
+    text-align: center;
+    margin-top:10%
+}
+label{
+    color: #0D65F2;
+    font-size:27px;
+}
+input {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  #error{
+      color:red;
+      text-align:center;
+  }
+ #lgn{
+     background-color:#FF8C00;
+     height: 20px;
+ }

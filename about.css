@@ -1,5 +1,9 @@
 body {
-    background-color: #FF8C00;
+  
+    background-image: url("background2.jpg");
+      background-repeat: no-repeat;
+    background-size: cover;
+      text-align: center;
     
 }
 h1  {
@@ -13,6 +17,17 @@ h3 {
     margin-top:5px;
     color:navy;
 }
+#overlay {
+    background-color: #FF8C00;
+    opacity:0.8;
+    position:absolute;
+    height:130%;
+    width:100%;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    content:'';
 p {
     margin-top:0px;
     font-size: 20px;
